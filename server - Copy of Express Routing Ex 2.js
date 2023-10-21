@@ -14,6 +14,7 @@ app.use(express.json());
 app.use('/campsites', campsiteRouter);
 
 //cut app.all to app.delete
+
 //delete the routing methods at this point and you will implete these endpoints into the campsite router
 
 app.use(express.static(__dirname + '/public'));
